@@ -53,17 +53,17 @@ li{
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 8pt;
+  font-size: 9pt;
 }
 
 #sidebar{
   float: right;
   position: relative; /* for disclaimer */
   width: var(--sidebar-width);
-  height: 100%;
+  height: 120%;
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
-  font-size: 8pt;
+  font-size: 8.5pt;
 }
 
 /* main */
@@ -259,7 +259,7 @@ li{
 
 .details .place{
   float: left;
-  font-size: 7.5pt;
+  font-size: 9pt;
   font-weight: bold;
 }
 
@@ -352,6 +352,10 @@ em {font-weight:bold; font-style:normal;}
   padding: 0;
 }
 
+.skills_{
+  margin-left: 0.15in;
+  list-style-type: circle;
+}
 
 #disclaimer{
   position: absolute;
